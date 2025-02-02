@@ -1,0 +1,71 @@
+body{
+    background: grey;
+    font-family:'Franklin Gothic Medium';
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+.cabecera{
+    border-bottom: 2px;
+    border-color: black;
+    background:beige;
+    overflow: hidden;
+    margin-bottom: 60px;
+    
+}
+.cabecera > div{
+    width: 600px;
+    margin:auto;
+}
+.contenedor{
+    
+    width: 600px;
+    margin:auto;
+
+}
+article{
+    border:1px solid black;
+    background:blanchedalmond;
+    margin-bottom: 60px;
+    border-radius: 3px;
+}
+article > header{
+    padding: 0px 14px;
+}
+
+.titulo-post{
+    overflow: hidden;
+    
+}
+.titulo h2{
+    font-size: 18px;
+}
+.titulo-post > div{
+    width: 50%;
+    float:left;
+    
+}
+.fecha{
+    text-align: right;
+    color:red;
+
+}
+.foto{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.descripcion{
+    padding: 0px 24px;
+}
+img{
+    max-width: 598px;
+    
+}
+
+span{
+    font-size: 15px;
+	font-weight: 500;
+}
+
