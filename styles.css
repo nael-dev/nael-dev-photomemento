@@ -1,9 +1,10 @@
 body{
     background: grey;
     font-family:'Franklin Gothic Medium';
-    font-weight: 100;
+    font-weight: 200;
     margin: 0;
     padding: 0;
+    
    
    
 }
@@ -13,23 +14,24 @@ body{
     background:beige;
     overflow: hidden;
     margin-bottom: 60px;
+    text-align: center;
     
 }
 .cabecera > div{
-    width: 600px;
+    width: 650px;
     margin:auto;
 }
 .contenedor{
     
-    width: 600px;
+    width: 650px;
     margin:auto;
 
 }
 article{
-    border:1px solid black;
+    border:2px solid black;
     background:blanchedalmond;
-    margin-bottom: 60px;
-    border-radius: 3px;
+    margin-bottom: 70px;
+    border-radius: 8px;
 }
 article > header{
     padding: 0px 14px;
@@ -58,9 +60,11 @@ article > header{
 }
 .descripcion{
     padding: 0px 24px;
+
 }
 img{
-    max-width: 598px;
+    max-width: 645px;
+    
     
 }
 
